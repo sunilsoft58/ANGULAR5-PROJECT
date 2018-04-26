@@ -1,0 +1,18 @@
+export class Employee {
+    EmployeeID : number;
+    FirstName:string;
+    LastName:string;
+    EmpCode:string;
+    Position:string;
+    Office:string;
+}
+
+export interface IEmployee {
+    EmployeeID : number;
+    FirstName:string;
+    LastName:string;
+    EmpCode:string;
+    Position:string;
+    Office:string;
+}
+
