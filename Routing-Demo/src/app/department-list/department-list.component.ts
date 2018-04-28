@@ -8,7 +8,7 @@ import { Router } from '@angular/router'
   template:`<h1>Department List</h1>
    <ul class="items">
    <li (click)="onSelect(department)" *ngFor="let department of departments">
-   <span>{{department.id}}</span>{{department.Name}}
+   <span class="badge">{{department.id}}</span>{{department.Name}}
    </li>
    </ul>
   `

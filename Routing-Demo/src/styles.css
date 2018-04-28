@@ -5,3 +5,8 @@ nav a:hover{
 color: blue;
 background-color: white;
 }
+ul.items li{
+ color: rebeccapurple;
+ margin-left: 10px;
+
+}
