@@ -8,6 +8,10 @@ import { NgSwicthDirevtiveComponent } from './structural-Directive/ng-swicth-dir
 import { NgForDirevtiveComponent } from './structural-Directive/ng-for-direvtive/ng-for-direvtive.component';
 import { NgStyleDirevtiveComponent } from './attribute-directives/ng-style-direvtive/ng-style-direvtive.component';
 import { NgClassDirevtiveComponent } from './Attribute-Directives/ng-class-direvtive/ng-class-direvtive.component';
+import { TextcolorDirective } from './custome-directive/textcolor.directive';
+import { CustomeDirectiveComponetComponent } from './custome-directive/custome-directive-componet/custome-directive-componet.component';
+import { HostlistenerDirective } from './custome-directive/hostlistener.directive';
+import { HostListnerComponent } from './custome-directive/host-listner/host-listner.component';
 
 
 @NgModule({
@@ -17,7 +21,11 @@ import { NgClassDirevtiveComponent } from './Attribute-Directives/ng-class-direv
     NgSwicthDirevtiveComponent,
     NgForDirevtiveComponent,
     NgStyleDirevtiveComponent,
-    NgClassDirevtiveComponent
+    NgClassDirevtiveComponent,
+    TextcolorDirective,
+    CustomeDirectiveComponetComponent,
+    HostlistenerDirective,
+    HostListnerComponent
   ],
   imports: [
     BrowserModule
